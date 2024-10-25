@@ -37,12 +37,6 @@
             "subscriptions_enable_selectors": false
           }
         },
-        "kiwi_size_chart_recommender_kiwi_sizing_z7VYEj": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "tabs": {
           "type": "tab_richtext",
           "settings": {
@@ -59,13 +53,19 @@
             "title_5": "",
             "raw_content_5": ""
           }
+        },
+        "kiwi_size_chart_recommender_kiwi_sizing_z7VYEj": {
+          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
         "price_and_title",
         "form",
-        "kiwi_size_chart_recommender_kiwi_sizing_z7VYEj",
-        "tabs"
+        "tabs",
+        "kiwi_size_chart_recommender_kiwi_sizing_z7VYEj"
       ],
       "settings": {
         "product_sticky_enable": true,
