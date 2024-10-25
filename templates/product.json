@@ -22,8 +22,15 @@
             "shop_price": true
           }
         },
+        "kiwi_size_chart_recommender_kiwi_sizing_z7VYEj": {
+          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "form": {
           "type": "form",
+          "disabled": true,
           "settings": {
             "info_page": "size-chart",
             "size_chart_kids": "size-chart-kids",
@@ -57,6 +64,7 @@
       },
       "block_order": [
         "price_and_title",
+        "kiwi_size_chart_recommender_kiwi_sizing_z7VYEj",
         "form",
         "tabs"
       ],
