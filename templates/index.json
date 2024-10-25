@@ -1,0 +1,986 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1648716423cfb494fc": {
+      "type": "section-video",
+      "settings": {
+        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/f8fcced69f6b425a9fda3edd8872b65f.mp4",
+        "video_link_bg_mob": "https://cdn.shopify.com/videos/c/o/v/c6f1747d12b04534864042cd91c9c275.mp4",
+        "video_link": "",
+        "bg_position": "center-center",
+        "height": "sixty-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "NEW IN...",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "shop now",
+        "link": "shopify://collections/whats-new",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "1647508476dfe5763c": {
+      "type": "section-logo-list",
+      "blocks": {
+        "9131dcbf-32ce-4851-bb35-497890626133": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo.png",
+            "logo_width": 150,
+            "link": "https://www.vogue.com/article/yuliya-magdych-ukrainian-fashion-designer-vyshyvanka"
+          }
+        },
+        "16475084766838061c-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Harpers_logo.png",
+            "logo_width": 150,
+            "link": "http://bazaar.ru/fashion/collections/yuliya-magdych-cruise-2016/"
+          }
+        },
+        "16475084766838061c-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/WWD_logo_logotype.png",
+            "logo_width": 150,
+            "link": "https://wwd.com/fashion-news/fashion-features/yuliya-magdych-us-handbag-scarves-bridal-10445420/"
+          }
+        },
+        "16475084766838061c-0": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/logo_1.png",
+            "logo_width": 150,
+            "link": ""
+          }
+        },
+        "907dad57-c75d-46a8-916c-5739894b454f": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/logo-observer.png",
+            "logo_width": 150,
+            "link": "https://observer.com/2016/08/ukrainian-designer-yuliya-magdych-has-designed-the-perfect-vacation-frock/"
+          }
+        }
+      },
+      "block_order": [
+        "9131dcbf-32ce-4851-bb35-497890626133",
+        "16475084766838061c-1",
+        "16475084766838061c-2",
+        "16475084766838061c-0",
+        "907dad57-c75d-46a8-916c-5739894b454f"
+      ],
+      "settings": {
+        "title": "As seen on",
+        "text_color": "text-dark",
+        "bg_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647087524b6e56875": {
+      "type": "section-slideshow",
+      "blocks": {
+        "1647087524643db072-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/bane2.jpg",
+            "mobile_image": "shopify://shop_images/28.jpg",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "title": "NEW IN",
+            "description": "…when every flower is a sacred code",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "SHOP NOW",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1647087524643db072-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "image-height",
+        "transition": "slide",
+        "arrows_style": true,
+        "dots_style": "hidden",
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "16487157483894b2a4": {
+      "type": "section-slideshow",
+      "blocks": {
+        "16487157481a06ff77-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/photo_2024-08-18_23.32.27.jpg",
+            "mobile_image": "shopify://shop_images/photo_2024-08-18_23.32.31.jpg",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "title": "BEST SELLERS",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "shop now",
+            "link": "shopify://collections/best-sellers",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16487157481a06ff77-0"
+      ],
+      "settings": {
+        "height": "sixty-fifty-height-hero",
+        "transition": "slide",
+        "arrows_style": true,
+        "dots_style": "hidden",
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "16487180825f806188": {
+      "type": "section-slideshow",
+      "blocks": {
+        "1648718082f422b854-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/IMG_3525.jpg",
+            "mobile_image": "shopify://shop_images/photo_2024-10-02_22.04.39.jpg",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "title": "ONE OF A KIND",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "shopify://collections/one-of-a-kind",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "image_FnWQxq": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/photo_2024-08-07_16.31.48.jpg",
+            "mobile_image": "shopify://shop_images/photo_2024-08-07_16.36.38.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "HIGH SUMMER",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "shopify://collections/high-summer",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1648718082f422b854-0",
+        "image_FnWQxq"
+      ],
+      "settings": {
+        "height": "image-height",
+        "transition": "slide",
+        "arrows_style": true,
+        "dots_style": "hidden",
+        "autoplay": true,
+        "autoplay_speed": 4
+      }
+    },
+    "section_collection_kUQdzk": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "DISCOVER BLOUSES COLLECTION",
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "VIEw all",
+        "link_url": "shopify://collections/blouses",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "blouses",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 130,
+        "layout_mobile": "carousel"
+      }
+    },
+    "section_slideshow_4LzDgg": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_976gwt": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/FullSizeRender.jpg",
+            "mobile_image": "shopify://shop_images/IMG_3236_2.jpg",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "title": "Coats collection",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "shopify://collections/coats",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "image_976gwt"
+      ],
+      "settings": {
+        "height": "image-height",
+        "transition": "slide",
+        "arrows_style": true,
+        "dots_style": "hidden",
+        "autoplay": false,
+        "autoplay_speed": 4
+      }
+    },
+    "section_video_VhwTna": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/ae8997d65fa84a4b95bb3f51c66f6fdf.mp4",
+        "video_link_bg_mob": "https://cdn.shopify.com/videos/c/o/v/ae8997d65fa84a4b95bb3f51c66f6fdf.mp4",
+        "video_link": "",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "Video",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "View products",
+        "link": "shopify://collections/coats",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "16487181790b5af08c": {
+      "type": "section-slideshow",
+      "blocks": {
+        "164871817933586793-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/ogo1.jpg",
+            "mobile_image": "shopify://shop_images/topppp.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "BRIDAL",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "Shop now",
+            "link": "shopify://collections/wedding-collection",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "164871817933586793-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "sixty-fifty-height-hero",
+        "transition": "slide",
+        "arrows_style": true,
+        "dots_style": "hidden",
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "section_collections_list_rfLQhD": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_inAD6U": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_RM7mJx": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_em3WWK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_CdxLtV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_inAD6U",
+        "collection_RM7mJx",
+        "collection_em3WWK",
+        "collection_CdxLtV"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Collection list",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 0.7,
+        "enable_slider": true
+      }
+    },
+    "22410656-4c3b-4923-85b1-5b849ea9deca": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--16799866159341__22410656-4c3b-4923-85b1-5b849ea9deca-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/B1226D2D-9F50-4890-BD65-16CA0677DC6D.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Kolossya collection",
+            "heading_size": 9,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "image_pGnj7D": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/1_1609a3d4-a003-47f9-8c4d-1774148a51af.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "UA Independence Day",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "shopify://collections/made-in-ua",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16799866159341__22410656-4c3b-4923-85b1-5b849ea9deca-image-1",
+        "image_pGnj7D"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "919f021e-1d43-454f-a3e8-940723ddca47": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/f6bbc8fd0f674c358b1f4583c89321ca.mp4",
+        "video_link_bg_mob": "",
+        "video_link": "",
+        "bg_position": "center-center",
+        "height": "screen-height-full",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/magdych-banners.png",
+            "mobile_image": "shopify://shop_images/Group_11123.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "RAMADAN COLLECTION",
+            "description": "SPRING-SUMMER 2022 FLOWER SHOP",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "SHOP NOW",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "5fd7ecff-fcf7-4869-aa85-ecb0cb8ed008": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/Group_12.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Image slide",
+            "description": "Tell your brand's story through images.",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "4b826230-b0dd-4fc6-bca2-f1fab1671e0d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/Group_19.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Image slide",
+            "description": "Tell your brand's story through images.",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "c87a59cc-47a8-4ff7-98ad-2d959638737c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/Group_18.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Image slide",
+            "description": "Tell your brand's story through images.",
+            "flex_align": "align--middle-left",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "f5aede90-b509-449f-97f1-e0f42e9983cd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/Group_17.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Image slide",
+            "description": "Tell your brand's story through images.",
+            "flex_align": "align--middle-center",
+            "text_color": "text-dark",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--black",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "04ac9b18-499b-4e99-aaea-42203ca7f072": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/Group_15.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Image slide",
+            "description": "Tell your brand's story through images.",
+            "flex_align": "align--middle-right",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "a4cafada-ad41-4be4-a548-4b13cd16c819": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/Group_14.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Image slide",
+            "description": "Tell your brand's story through images.",
+            "flex_align": "align--middle-left",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0",
+        "5fd7ecff-fcf7-4869-aa85-ecb0cb8ed008",
+        "4b826230-b0dd-4fc6-bca2-f1fab1671e0d",
+        "c87a59cc-47a8-4ff7-98ad-2d959638737c",
+        "f5aede90-b509-449f-97f1-e0f42e9983cd",
+        "04ac9b18-499b-4e99-aaea-42203ca7f072",
+        "a4cafada-ad41-4be4-a548-4b13cd16c819"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "sixty-fifty-height-hero",
+        "transition": "slide",
+        "arrows_style": false,
+        "dots_style": "line",
+        "autoplay": true,
+        "autoplay_speed": 4
+      }
+    },
+    "1647088588fb429245": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "1647088588c88de67e-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "title": "NEW COLLECTION",
+            "featured_collection": "whats-new",
+            "show_image": false,
+            "image": "shopify://shop_images/DSC08904.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "text_color": "text-light",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1647088588c88de67e-1": {
+          "type": "collection",
+          "settings": {
+            "title": "BEST SELLERS",
+            "featured_collection": "",
+            "show_image": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "text_color": "text-light",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1647088588c88de67e-0",
+        "1647088588c88de67e-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "YULIYA MAGDYCH"
+      }
+    },
+    "1647087626b1d4f4fc": {
+      "type": "section-slideshow",
+      "blocks": {
+        "16470876267080aa5a-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/DSC09380.jpg",
+            "overlay_opacity": 40,
+            "overlay_color": "#000000",
+            "title": "OUR BEST SELLERS",
+            "description": "…again and again.",
+            "flex_align": "align--middle-left",
+            "text_color": "text-light",
+            "transparent": false,
+            "link_text": "SHOP NOW",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16470876267080aa5a-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "image-height",
+        "transition": "slide",
+        "arrows_style": true,
+        "dots_style": "hidden",
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "164708858671e6daca": {
+      "type": "section-slideshow",
+      "blocks": {
+        "1647088586fd4dc110-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/2022-02-05_18.05.44.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "BRIDAL COLLECTION",
+            "description": "…to feel the love from the dress",
+            "flex_align": "align--middle-center",
+            "text_color": "text-dark",
+            "transparent": true,
+            "link_text": "SHOP NOW",
+            "link": "shopify://collections/wedding-collection",
+            "button_color": "btn--black",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1647088586fd4dc110-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "image-height",
+        "transition": "slide",
+        "arrows_style": true,
+        "dots_style": "hidden",
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "16470876289648b57f": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "DISCOVER BEST SELLERS",
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "DISCOVER NOW",
+        "link_url": "shopify://collections/best-sellers",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "best-sellers",
+        "grid": 4,
+        "rows": 2,
+        "aspect_ratio": 150,
+        "layout_mobile": "2"
+      }
+    },
+    "16470894451d63114f": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "SHOP OUR INSTAGRAM",
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "view all",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "instagram",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 100,
+        "layout_mobile": "carousel"
+      }
+    },
+    "1646914021d3e32621": {
+      "type": "featured-posts",
+      "blocks": {
+        "164691402165b17bb7-0": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "news/paris-fashion-week-is-calling",
+            "subheading": "Featured post",
+            "image": "shopify://shop_images/OB2FiN1GufM26Eh.jpg",
+            "bg_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "164691402165b17bb7-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_author": false,
+        "show_date": true,
+        "show_button": true
+      }
+    },
+    "f09f809c-c7a6-4a67-9b67-ae38528ff596": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16757343387885__f09f809c-c7a6-4a67-9b67-ae38528ff596-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/16489101_32680879_1000.jpg",
+            "bg_position": "center-center",
+            "title": "Amazing collection",
+            "heading_size": 8,
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "text_size": 3,
+            "button_text": "Shop now",
+            "button_url": "shopify://collections/best-sellers",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input"
+          }
+        },
+        "template--16757343387885__f09f809c-c7a6-4a67-9b67-ae38528ff596-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/mag17438.jpg",
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "heading_size": 7,
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--black",
+            "button_style": "hero__btn btn btn--input btn--outline"
+          }
+        },
+        "template--16757343387885__f09f809c-c7a6-4a67-9b67-ae38528ff596-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/mag17555.jpg",
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "heading_size": 7,
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        },
+        "14f878bf-25be-4f1b-b306-196072951f67": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/mag17414.jpg",
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "heading_size": 7,
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16757343387885__f09f809c-c7a6-4a67-9b67-ae38528ff596-text_block-1",
+        "template--16757343387885__f09f809c-c7a6-4a67-9b67-ae38528ff596-text_block-2",
+        "template--16757343387885__f09f809c-c7a6-4a67-9b67-ae38528ff596-text_block-3",
+        "14f878bf-25be-4f1b-b306-196072951f67"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg_color": "#ffffff",
+        "align_text": "text-left",
+        "width": "wrapper--full",
+        "photo_aspect_ratio": 0.7,
+        "enable_image": true
+      }
+    },
+    "1702e36c-10e4-4a20-b990-7e15189bdd96": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16799866159341__1702e36c-10e4-4a20-b990-7e15189bdd96-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/186783739_476131983655086_2809214748626282372_n.jpg",
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        },
+        "template--16799866159341__1702e36c-10e4-4a20-b990-7e15189bdd96-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/d6f058a2be44414d2ce3cc9be5e7d03f.png",
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        },
+        "template--16799866159341__1702e36c-10e4-4a20-b990-7e15189bdd96-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/121149467_372147584142346_7439012924016031430_n.jpg",
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        },
+        "b6cb02da-64c8-474b-bbaa-270f682a1e18": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/191103580_476043420366852_2858079083948352723_n.jpg",
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        },
+        "c4f597ec-3f16-4deb-9f78-e5c6cdfb3f00": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/54238012_663913407373524_7697598274318079713_n.jpg",
+            "bg_position": "center-center",
+            "title": "Add a title or tagline",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16799866159341__1702e36c-10e4-4a20-b990-7e15189bdd96-text_block-1",
+        "template--16799866159341__1702e36c-10e4-4a20-b990-7e15189bdd96-text_block-2",
+        "template--16799866159341__1702e36c-10e4-4a20-b990-7e15189bdd96-text_block-3",
+        "b6cb02da-64c8-474b-bbaa-270f682a1e18",
+        "c4f597ec-3f16-4deb-9f78-e5c6cdfb3f00"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "WHO WEAR YULIYA MAGDYCH",
+        "bg_color": "#ffffff",
+        "align_text": "text-left",
+        "width": "",
+        "photo_aspect_ratio": 1.1,
+        "enable_image": true
+      }
+    }
+  },
+  "order": [
+    "1648716423cfb494fc",
+    "1647508476dfe5763c",
+    "1647087524b6e56875",
+    "16487157483894b2a4",
+    "16487180825f806188",
+    "section_collection_kUQdzk",
+    "section_slideshow_4LzDgg",
+    "section_video_VhwTna",
+    "16487181790b5af08c",
+    "section_collections_list_rfLQhD",
+    "22410656-4c3b-4923-85b1-5b849ea9deca",
+    "919f021e-1d43-454f-a3e8-940723ddca47",
+    "slideshow",
+    "1647088588fb429245",
+    "1647087626b1d4f4fc",
+    "164708858671e6daca",
+    "16470876289648b57f",
+    "16470894451d63114f",
+    "1646914021d3e32621",
+    "f09f809c-c7a6-4a67-9b67-ae38528ff596",
+    "1702e36c-10e4-4a20-b990-7e15189bdd96"
+  ]
+}

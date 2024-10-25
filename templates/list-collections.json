@@ -1,0 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "list-collections",
+      "blocks": {
+        "a80e714d-c7a5-4586-a950-e0148807425a": {
+          "type": "collection",
+          "settings": {
+            "collection": "peonies",
+            "collection_name": "PEONIES",
+            "bg_position": "center-center"
+          }
+        },
+        "64674e34-e6e5-4ca1-8920-7b567cfe436b": {
+          "type": "collection",
+          "settings": {
+            "collection": "roses",
+            "collection_name": "ROSES",
+            "bg_position": "center-center"
+          }
+        },
+        "b53e00d4-5000-4074-bc74-cc8af96478e0": {
+          "type": "collection",
+          "settings": {
+            "collection": "kolossya",
+            "collection_name": "KOLOSSYA",
+            "bg_position": "center-center"
+          }
+        },
+        "c0249838-b0b5-4c00-900a-c2588ac379b0": {
+          "type": "collection",
+          "settings": {
+            "collection": "vechornitzi",
+            "collection_name": "VECHORNITSI",
+            "bg_position": "center-center"
+          }
+        },
+        "fc0f655d-e0ae-423a-8aa2-3eaa8d47f879": {
+          "type": "collection",
+          "settings": {
+            "collection": "pixel-flowers",
+            "collection_name": "PIXEL FLOWERS",
+            "bg_position": "center-center"
+          }
+        },
+        "a5f65b38-2863-408a-a7ec-ba3c724624d1": {
+          "type": "collection",
+          "settings": {
+            "collection": "cotton",
+            "collection_name": "COTTON",
+            "bg_position": "center-center"
+          }
+        },
+        "2a1661c3-0b26-41e6-a1d5-f85e96e3347e": {
+          "type": "collection",
+          "settings": {
+            "collection": "mimosa",
+            "collection_name": "MIMOSA",
+            "bg_position": "center-center"
+          }
+        },
+        "5bed4335-9f5f-48c9-8703-2d531c662da6": {
+          "type": "collection",
+          "settings": {
+            "collection": "lilies",
+            "collection_name": "LILIES",
+            "bg_position": "center-center"
+          }
+        },
+        "69ed2947-df8b-403a-867f-f6b091fd9482": {
+          "type": "collection",
+          "settings": {
+            "collection": "exstasy",
+            "collection_name": "EXSTASY",
+            "bg_position": "center-center"
+          }
+        },
+        "e9b9b6db-2902-42d4-821c-69359515ff49": {
+          "type": "collection",
+          "settings": {
+            "collection": "pansies",
+            "collection_name": "PANSIES",
+            "bg_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "a80e714d-c7a5-4586-a950-e0148807425a",
+        "64674e34-e6e5-4ca1-8920-7b567cfe436b",
+        "b53e00d4-5000-4074-bc74-cc8af96478e0",
+        "c0249838-b0b5-4c00-900a-c2588ac379b0",
+        "fc0f655d-e0ae-423a-8aa2-3eaa8d47f879",
+        "a5f65b38-2863-408a-a7ec-ba3c724624d1",
+        "2a1661c3-0b26-41e6-a1d5-f85e96e3347e",
+        "5bed4335-9f5f-48c9-8703-2d531c662da6",
+        "69ed2947-df8b-403a-867f-f6b091fd9482",
+        "e9b9b6db-2902-42d4-821c-69359515ff49"
+      ],
+      "settings": {
+        "display_type": "selected",
+        "title": "Collections",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
