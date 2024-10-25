@@ -30,7 +30,6 @@
         },
         "form": {
           "type": "form",
-          "disabled": true,
           "settings": {
             "info_page": "size-chart",
             "size_chart_kids": "size-chart-kids",
