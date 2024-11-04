@@ -1,0 +1,9 @@
+.btn.ks-chart-modal-button,
+span.ks-chart-modal-link {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.btn.ks-chart-modal-button:hover,
+span.ks-chart-modal-link:hover {
+    box-shadow: none;
+}

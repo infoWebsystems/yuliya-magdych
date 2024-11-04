@@ -51,7 +51,7 @@ window.TriplePixelData={TripleName:"yuliya-magdych.myshopify.com",ver:"2.12",pla
   {% else %}
     {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
   {% endif %}
-
+  {{ 'wss.css' | asset_url | stylesheet_tag: preload: true }}
   {% render 'theme-pre' %}
 
   {% if settings.favicon %}
@@ -185,7 +185,7 @@ window.TriplePixelData={TripleName:"yuliya-magdych.myshopify.com",ver:"2.12",pla
   {% render 'gsf-conversion-pixels' %}
   <meta name="google-site-verification" content="zbZ0-mkYxdcHtnxhpdXe4uF-Ft2UwUm9hbFpSWZsUg8" />
 
- {% render 'gift-card-pro' %} 
+ {% render 'gift-card-pro' %}
 </head>
 <style>
   .btn--outline.btn--white, .product__reviews .btn--white.spr-summary-actions-newreview, .product__submit--spb .btn--white.product__submit__add {

@@ -3,15 +3,15 @@
 {%- assign current_variant = product.selected_or_first_available_variant -%}
 {%- assign unique = unique | default: '' -%}
 
-{% comment %} 
-This is for sections/product and sections/index-product 
+{% comment %}
+This is for sections/product and sections/index-product
 {% endcomment %}{%- assign buybutton_setting = block.settings.show_payment_button -%}
-{% comment %} 
+{% comment %}
 This is for templates/ajax-quick-add
 {% endcomment %}{%- if buybutton_setting == nil -%}
   {% assign buybutton_setting = settings.quickview_buybutton_enable -%}
 {%- endif -%}
-{% comment %} 
+{% comment %}
 Override buy button setting if there are selling plan groups
 {% endcomment %}
 {%- if product.selling_plan_groups.size > 0 -%}
@@ -526,14 +526,18 @@ Size chart
   {%- endcapture -%}
   <div class="product__variant_sku_wr">
     {% assign current_variant = product.selected_or_first_available_variant %}
+    {% comment %}
     {% if product.metafields.custom.kids_size_chart %}
       {{ size_chart_for_kids }}
     {% else %}
       {{ size_chart }}
     {% endif %}
-    <div class="product__variant_sku {% if block.settings.show_sku == false %}hidden{% endif %}">SKU:
-      <span>{{ current_variant.sku }}</span>
-    </div>
+    {% endcomment %}
+    {% if current_variant.sku != blank %}
+      <div class="product__variant_sku {% if block.settings.show_sku == false %}hidden{% endif %}">SKU:
+        <span>{{ current_variant.sku }}</span>
+      </div>
+    {% endif %}
   </div>
   {%- capture form_fields -%}
     {% unless product.has_only_default_variant %}
@@ -837,16 +841,16 @@ Size chart
 <script>
   let productItem
   let currentSizes = []
-  let currentColor 
+  let currentColor
   let variants
-  
+
   let currentColorArrayLength
   let notCurrentColorArrayLength
   const sizeDropdownItems = document.querySelectorAll('.select-popout__list a')
   const inventoryQuantityItems = document.querySelectorAll('.inventory_quantity li');
   const dropdownItems = document.querySelectorAll('.select-popout__list .select-popout__option');
   const addToCartButton = document.querySelector('.product__submit__add span');
-  
+
   let sizes
   let currentSizeVariants
   if (document.querySelectorAll('.select-popout__list a')) {
@@ -855,9 +859,9 @@ Size chart
       currentSizes.push(el.dataset.value)
     })
   }
-  
+
   const getProduct = async () => {
-    
+
     if (document.querySelector('input[name="options[Color]"]')) {
       currentColor = document.querySelector('input[name="options[Color]"]:checked').value
     }
@@ -874,14 +878,14 @@ Size chart
       // get all variants
       variants = productItem.variants
       const setSoldOut = (variantItem) => {
-       
+
         sizeDropdownItems.forEach(el => {
           if (document.querySelector('input[name="options[Color]"]')) {
             if(variantItem.options.includes(el.dataset.value) && variantItem.options.includes(currentColor)) {
               el.dataset.variant = variantItem.id
               inventoryQuantityItems.forEach(quantityItem => {
                 if (el.dataset.variant == quantityItem.dataset.variant) {
-                  
+
                   if (quantityItem.dataset.quantity > 1) {
                     el.querySelector('span').textContent = `{% if template != "product.gift-card" %}Size{% endif %} ${el.dataset.value}  ${theme.strings.inStock}`
                     el.dataset.status = theme.strings.inStock
@@ -920,12 +924,12 @@ Size chart
               })
             }
           }
-          
+
         })
       }
-      
+
       for (const [index, variantItem] of variants.entries()) {
-         
+
           setSoldOut(variantItem)
       }
     } catch (error) {
@@ -937,7 +941,7 @@ Size chart
     const currentColorInputs = document.querySelectorAll('.radio__fieldset input[data-single-option-selector]')
     currentColorInputs.forEach(el => {
       el.addEventListener('change', () => {
-        
+
         currentColor = el.value
         getProduct()
         if( document.querySelector('.select-popout')) {
@@ -946,14 +950,14 @@ Size chart
           let attrValueText = '';
           if (currentOption.dataset.value  ) {
             setTimeout(() => {
-              attrValueText = `${currentOption.dataset.value}  ${currentOption.dataset.status} `;    
-              console.log(attrValueText)      
+              attrValueText = `${currentOption.dataset.value}  ${currentOption.dataset.status} `;
+              console.log(attrValueText)
               console.log(el)
             }, 1000);
           }
           if (attrValueText !== '' || attrValueText !== 'undefined' ) {
             setTimeout(() => {
-              popoutText.textContent = attrValueText;          
+              popoutText.textContent = attrValueText;
             }, 1000);
           }
         }
