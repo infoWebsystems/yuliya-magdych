@@ -170,15 +170,14 @@
         "block_order": [
           "popups-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "announcement": {
         "type": "announcement",
         "settings": {
           "bg_color": "#212121",
           "color": "#ffffff",
-          "text_top": "FREE SHIPPING ON ORDERS FROM $700",
+          "text_top": "FREE SHIPPING ON ORDERS FROM $1990",
           "text_button": "",
           "title_bottom": "",
           "text_bottom": "",
@@ -207,15 +206,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -357,8 +353,7 @@
           "block_order": [
             "popups-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -484,8 +479,7 @@
           "block_order": [
             "popups-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -606,8 +600,7 @@
           "block_order": [
             "popups-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     }
