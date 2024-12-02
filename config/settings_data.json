@@ -177,12 +177,12 @@
         "settings": {
           "bg_color": "#212121",
           "color": "#ffffff",
-          "text_top": "CYBER MONDAY - LAST CHANCE SALE | FREE SHIPPING FROM $1990",
+          "text_top": "FREE SHIPPING FROM $1990",
           "text_button": "",
           "title_bottom": "",
           "text_bottom": "",
-          "text_bottom_button": "SHOP NOW",
-          "link_bottom_button": "shopify://collections/black-friday-24"
+          "text_bottom_button": "",
+          "link_bottom_button": ""
         }
       },
       "wishlist": {
