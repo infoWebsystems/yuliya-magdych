@@ -41,14 +41,6 @@
             "link": "https://www.vogue.com/article/yuliya-magdych-ukrainian-fashion-designer-vyshyvanka"
           }
         },
-        "16475084766838061c-1": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify://shop_images/Harpers_logo.png",
-            "logo_width": 150,
-            "link": "http://bazaar.ru/fashion/collections/yuliya-magdych-cruise-2016/"
-          }
-        },
         "16475084766838061c-2": {
           "type": "logo-item",
           "settings": {
@@ -76,7 +68,6 @@
       },
       "block_order": [
         "9131dcbf-32ce-4851-bb35-497890626133",
-        "16475084766838061c-1",
         "16475084766838061c-2",
         "16475084766838061c-0",
         "907dad57-c75d-46a8-916c-5739894b454f"
