@@ -270,8 +270,8 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify://shop_images/FullSizeRender.jpg",
-            "mobile_image": "shopify://shop_images/IMG_3236_2.jpg",
+            "image": "shopify://shop_images/fd62caae5aa7446bb57d5b51c2852f45-ezgif.com-video-to-gif-converter.gif",
+            "mobile_image": "shopify://shop_images/fd62caae5aa7446bb57d5b51c2852f45-ezgif.com-video-to-gif-converter.gif",
             "overlay_opacity": 10,
             "overlay_color": "#000000",
             "title": "Coats collection",
@@ -296,28 +296,6 @@
         "dots_style": "hidden",
         "autoplay": false,
         "autoplay_speed": 4
-      }
-    },
-    "section_video_VhwTna": {
-      "type": "section-video",
-      "disabled": true,
-      "settings": {
-        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/ae8997d65fa84a4b95bb3f51c66f6fdf.mp4",
-        "video_link_bg_mob": "https://cdn.shopify.com/videos/c/o/v/ae8997d65fa84a4b95bb3f51c66f6fdf.mp4",
-        "video_link": "",
-        "bg_position": "center-center",
-        "height": "image-height",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "title": "Video",
-        "description": "",
-        "flex_align": "align--middle-center",
-        "text_color": "text-light",
-        "transparent": true,
-        "link_text": "View products",
-        "link": "shopify://collections/coats",
-        "button_color": "btn--white",
-        "button_style": "hero__btn btn btn--large btn--outline caps"
       }
     },
     "16487181790b5af08c": {
@@ -1000,7 +978,6 @@
     "16487180825f806188",
     "section_collection_kUQdzk",
     "section_slideshow_4LzDgg",
-    "section_video_VhwTna",
     "16487181790b5af08c",
     "section_collections_list_rfLQhD",
     "22410656-4c3b-4923-85b1-5b849ea9deca",
