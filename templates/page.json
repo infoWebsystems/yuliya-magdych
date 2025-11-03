@@ -34,7 +34,9 @@
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "title": "",
+            "heading_size": 7,
             "description": "",
+            "text_size": 3,
             "flex_align": "align--middle-center",
             "text_color": "text-light",
             "transparent": true,
@@ -129,11 +131,20 @@
         "text_color": "text-dark",
         "bg_color": "#fafafa"
       }
+    },
+    "section_liquid_EXehDm": {
+      "type": "section-liquid",
+      "custom_css": [],
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-UWaFv5\"></div>"
+      }
     }
   },
   "order": [
     "main",
     "1647435988d11832ae",
-    "1648028798da468267"
+    "1648028798da468267",
+    "section_liquid_EXehDm"
   ]
 }
