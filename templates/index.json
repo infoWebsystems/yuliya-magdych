@@ -41,14 +41,6 @@
             "link": "https://www.vogue.com/article/yuliya-magdych-ukrainian-fashion-designer-vyshyvanka"
           }
         },
-        "16475084766838061c-1": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify://shop_images/Harpers_logo.png",
-            "logo_width": 150,
-            "link": "http://bazaar.ru/fashion/collections/yuliya-magdych-cruise-2016/"
-          }
-        },
         "16475084766838061c-2": {
           "type": "logo-item",
           "settings": {
@@ -76,7 +68,6 @@
       },
       "block_order": [
         "9131dcbf-32ce-4851-bb35-497890626133",
-        "16475084766838061c-1",
         "16475084766838061c-2",
         "16475084766838061c-0",
         "907dad57-c75d-46a8-916c-5739894b454f"
@@ -126,15 +117,34 @@
     "16487157483894b2a4": {
       "type": "section-slideshow",
       "blocks": {
+        "image_DXfFkQ": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/photo_2025-09-15_13.43.07.jpg",
+            "mobile_image": "shopify://shop_images/photo_2025-09-15_13.46.39.jpg",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "title": "PEONIES",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "shop now",
+            "link": "shopify://collections/peonies",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
         "16487157481a06ff77-0": {
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify://shop_images/photo_2024-08-18_23.32.27.jpg",
-            "mobile_image": "shopify://shop_images/photo_2024-08-18_23.32.31.jpg",
+            "image": "shopify://shop_images/photo_2024-10-02_21.49.13.jpg",
+            "mobile_image": "shopify://shop_images/photo_2024-08-18_23.32.31_c05769af-f6e3-4b1b-8b7a-7f3dddadd0d1.jpg",
             "overlay_opacity": 10,
             "overlay_color": "#000000",
-            "title": "BEST SELLERS",
+            "title": "BESTSELLERS",
             "description": "",
             "flex_align": "align--bottom-center",
             "text_color": "text-light",
@@ -144,10 +154,32 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
+        },
+        "image_CHc9Dh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/White_Aesthetic_Photo_Sale_Instagram_Story_2.png",
+            "mobile_image": "shopify://shop_images/White_Aesthetic_Photo_Sale_Instagram_Story.png",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "title": "UA Independence Day",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "shop now",
+            "link": "shopify://collections/made-in-ua",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
         }
       },
       "block_order": [
-        "16487157481a06ff77-0"
+        "image_DXfFkQ",
+        "16487157481a06ff77-0",
+        "image_CHc9Dh"
       ],
       "settings": {
         "height": "sixty-fifty-height-hero",
@@ -238,8 +270,8 @@
           "type": "image",
           "settings": {
             "bg_position": "center-center",
-            "image": "shopify://shop_images/FullSizeRender.jpg",
-            "mobile_image": "shopify://shop_images/IMG_3236_2.jpg",
+            "image": "shopify://shop_images/fd62caae5aa7446bb57d5b51c2852f45-ezgif.com-video-to-gif-converter.gif",
+            "mobile_image": "shopify://shop_images/fd62caae5aa7446bb57d5b51c2852f45-ezgif.com-video-to-gif-converter.gif",
             "overlay_opacity": 10,
             "overlay_color": "#000000",
             "title": "Coats collection",
@@ -264,28 +296,6 @@
         "dots_style": "hidden",
         "autoplay": false,
         "autoplay_speed": 4
-      }
-    },
-    "section_video_VhwTna": {
-      "type": "section-video",
-      "disabled": true,
-      "settings": {
-        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/ae8997d65fa84a4b95bb3f51c66f6fdf.mp4",
-        "video_link_bg_mob": "https://cdn.shopify.com/videos/c/o/v/ae8997d65fa84a4b95bb3f51c66f6fdf.mp4",
-        "video_link": "",
-        "bg_position": "center-center",
-        "height": "image-height",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "title": "Video",
-        "description": "",
-        "flex_align": "align--middle-center",
-        "text_color": "text-light",
-        "transparent": true,
-        "link_text": "View products",
-        "link": "shopify://collections/coats",
-        "button_color": "btn--white",
-        "button_style": "hero__btn btn btn--large btn--outline caps"
       }
     },
     "16487181790b5af08c": {
@@ -968,7 +978,6 @@
     "16487180825f806188",
     "section_collection_kUQdzk",
     "section_slideshow_4LzDgg",
-    "section_video_VhwTna",
     "16487181790b5af08c",
     "section_collections_list_rfLQhD",
     "22410656-4c3b-4923-85b1-5b849ea9deca",
