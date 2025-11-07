@@ -23,6 +23,13 @@
         "bg_color": "#ffffff"
       }
     },
+    "section_liquid_ciUWbp": {
+      "type": "section-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-UWaFv5\" style=\"min-height: 140px;\"></div>\n\n<script>\n  // гарантуємо завантаження та ре-ініт на мобільному (Broadcast/lazy-load)\n  (function forceKlaviyoInit(){\n    var tries = 0;\n    function init(){\n      try {\n        if (window._klOnsite && typeof window._klOnsite.fetchForms === 'function') {\n          window._klOnsite.fetchForms();\n        }\n      } catch(e){}\n      if (++tries < 10) setTimeout(init, 400); // повторюємо 10 разів по 400мс\n    }\n    document.addEventListener('DOMContentLoaded', init);\n    window.addEventListener('load', init, { once:true });\n    document.addEventListener('shopify:section:load', init);\n    document.addEventListener('shopify:section:select', init);\n    window.addEventListener('scroll', init, { once:true });\n  })();\n</script>"
+      }
+    },
     "176253609447c1f25e": {
       "type": "apps",
       "blocks": {
@@ -39,13 +46,6 @@
       "disabled": true,
       "settings": {
         "include_margins": false
-      }
-    },
-    "section_liquid_ciUWbp": {
-      "type": "section-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-UWaFv5\" style=\"min-height: 140px;\"></div>\n\n<script>\n  // гарантуємо завантаження та ре-ініт на мобільному (Broadcast/lazy-load)\n  (function forceKlaviyoInit(){\n    var tries = 0;\n    function init(){\n      try {\n        if (window._klOnsite && typeof window._klOnsite.fetchForms === 'function') {\n          window._klOnsite.fetchForms();\n        }\n      } catch(e){}\n      if (++tries < 10) setTimeout(init, 400); // повторюємо 10 разів по 400мс\n    }\n    document.addEventListener('DOMContentLoaded', init);\n    window.addEventListener('load', init, { once:true });\n    document.addEventListener('shopify:section:load', init);\n    document.addEventListener('shopify:section:select', init);\n    window.addEventListener('scroll', init, { once:true });\n  })();\n</script>"
       }
     },
     "1647435988d11832ae": {
@@ -162,8 +162,8 @@
   },
   "order": [
     "main",
-    "176253609447c1f25e",
     "section_liquid_ciUWbp",
+    "176253609447c1f25e",
     "1647435988d11832ae",
     "1648028798da468267"
   ]
