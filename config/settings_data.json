@@ -160,6 +160,7 @@
         "blocks": {
           "popups-0": {
             "type": "cookie",
+            "disabled": true,
             "settings": {
               "position": "popup-cookies--left",
               "show_cookies_popup": true
