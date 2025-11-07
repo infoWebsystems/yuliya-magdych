@@ -151,6 +151,7 @@
         "1648028798777b60e9-1",
         "93a10b2f-9ef9-4524-876d-b7985292b699"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "text_color": "text-dark",
