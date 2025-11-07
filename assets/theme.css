@@ -180,3 +180,22 @@ https://flickity.metafizzy.co
   transition: width 1s ease-in-out, transform 1s ease-in-out 0.5s;
   transform-origin: center left;
 }
+
+/* --- Klaviyo embed: видимість саме на сторінці Birthday Gift (мобільні) --- */
+@media (max-width: 749px) {
+  body.page-your-birthday-gift .klaviyo-form-UWaFv5,
+  body.page-your-birthday-gift .klaviyo-form-UWaFv5 form {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    width: 100% !important;
+  }
+
+  /* лише контейнер app-блоку в цьому шаблоні */
+  body.page-your-birthday-gift .shopify-app-block[id*="klaviyo_email_marketing_sms_form_embed_block"] {
+    min-height: 120px !important;
+    overflow: visible !important;
+  }
+}
