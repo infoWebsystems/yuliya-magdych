@@ -23,18 +23,18 @@
         "bg_color": "#ffffff"
       }
     },
+    "section_liquid_Mb64dC": {
+      "type": "section-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-UVUMXj\" style=\"min-height: 140px;\"></div>\n\n<script>\n(function ensureKlaviyoMobile(){\n  let tries = 0;\n  function init(){\n    try {\n      if (window._klOnsite && typeof window._klOnsite.fetchForms === 'function') {\n        window._klOnsite.fetchForms();\n      }\n    } catch(e) {}\n    if (++tries < 15) setTimeout(init, 500);\n  }\n\n  // запуск при різних подіях\n  ['DOMContentLoaded','load','scroll','shopify:section:load','shopify:section:select','touchstart']\n  .forEach(ev => window.addEventListener(ev, init, {once:false}));\n})();\n</script>\n\n<style>\n  @media (min-width: 750px){\n    .klaviyo-form-UVUMXj { display:none !important; }\n  }\n</style>"
+      }
+    },
     "section_liquid_ciUWbp": {
       "type": "section-liquid",
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": "<!-- Klaviyo DESKTOP Form -->\n<div class=\"klaviyo-form-UWaFv5\" style=\"min-height: 140px;\"></div>\n\n<script>\n  (function initDesktopForm(){\n    var tries = 0;\n    function init(){\n      try {\n        if (window._klOnsite && typeof window._klOnsite.fetchForms === 'function') {\n          window._klOnsite.fetchForms();\n        }\n      } catch(e){}\n      if (++tries < 10) setTimeout(init, 400);\n    }\n\n    // запуск при різних подіях\n    document.addEventListener('DOMContentLoaded', init);\n    window.addEventListener('load', init, {once:true});\n    document.addEventListener('shopify:section:load', init);\n    document.addEventListener('shopify:section:select', init);\n    window.addEventListener('scroll', init, {once:true});\n  })();\n</script>\n\n<style>\n  /* показуємо тільки на десктопі */\n  @media (max-width: 749px){\n    .klaviyo-form-UWaFv5 { display: none !important; }\n  }\n</style>"
-      }
-    },
-    "section_liquid_Mb64dC": {
-      "type": "section-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "custom_liquid": "<!-- Klaviyo MOBILE Form -->\n<div class=\"klaviyo-form-UVUMXj\" style=\"min-height: 140px;\"></div>\n\n<script>\n  (function initMobileForm(){\n    var tries = 0;\n    function init(){\n      try {\n        if (window._klOnsite && typeof window._klOnsite.fetchForms === 'function') {\n          window._klOnsite.fetchForms();\n        }\n      } catch(e){}\n      if (++tries < 10) setTimeout(init, 400);\n    }\n\n    document.addEventListener('DOMContentLoaded', init);\n    window.addEventListener('load', init, {once:true});\n    document.addEventListener('shopify:section:load', init);\n    document.addEventListener('shopify:section:select', init);\n    window.addEventListener('scroll', init, {once:true});\n  })();\n</script>\n\n<style>\n  /* показуємо тільки на мобільному */\n  @media (min-width: 750px){\n    .klaviyo-form-UVUMXj { display: none !important; }\n  }\n</style>"
       }
     },
     "176253609447c1f25e": {
@@ -169,8 +169,8 @@
   },
   "order": [
     "main",
-    "section_liquid_ciUWbp",
     "section_liquid_Mb64dC",
+    "section_liquid_ciUWbp",
     "176253609447c1f25e",
     "1647435988d11832ae",
     "1648028798da468267"
