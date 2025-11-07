@@ -30,6 +30,13 @@
         "custom_liquid": "<div class=\"klaviyo-form-UWaFv5\" style=\"min-height: 140px;\"></div>\n\n<script>\n  // гарантуємо завантаження та ре-ініт на мобільному (Broadcast/lazy-load)\n  (function forceKlaviyoInit(){\n    var tries = 0;\n    function init(){\n      try {\n        if (window._klOnsite && typeof window._klOnsite.fetchForms === 'function') {\n          window._klOnsite.fetchForms();\n        }\n      } catch(e){}\n      if (++tries < 10) setTimeout(init, 400); // повторюємо 10 разів по 400мс\n    }\n    document.addEventListener('DOMContentLoaded', init);\n    window.addEventListener('load', init, { once:true });\n    document.addEventListener('shopify:section:load', init);\n    document.addEventListener('shopify:section:select', init);\n    window.addEventListener('scroll', init, { once:true });\n  })();\n</script>"
       }
     },
+    "section_liquid_FBxawd": {
+      "type": "section-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align:center; padding: 24px 0;\">\n  <button id=\"openKlaviyoBirthday\" \n          style=\"padding:14px 26px; border:1px solid #000; background:#fff; color:#000; \n                 font-family:'Century Gothic', sans-serif; font-size:14px; letter-spacing:.05em; \n                 text-transform:uppercase; cursor:pointer; transition:all .3s ease;\">\n    🎂 Join the Birthday Club\n  </button>\n</div>\n\n<script>\n  // Коли користувач натискає кнопку — відкривається popup форма Klaviyo\n  document.getElementById('openKlaviyoBirthday').addEventListener('click', function() {\n    try {\n      window._klOnsite = window._klOnsite || [];\n      window._klOnsite.push(['openForm', 'UWaFv5']);\n    } catch (e) {\n      console.error('Klaviyo form not loaded yet', e);\n      alert('Form is loading, please try again in a moment.');\n    }\n  });\n</script>\n\n<style>\n  #openKlaviyoBirthday:hover {\n    background:#000;\n    color:#fff;\n  }\n</style>"
+      }
+    },
     "176253609447c1f25e": {
       "type": "apps",
       "blocks": {
@@ -163,6 +170,7 @@
   "order": [
     "main",
     "section_liquid_ciUWbp",
+    "section_liquid_FBxawd",
     "176253609447c1f25e",
     "1647435988d11832ae",
     "1648028798da468267"
