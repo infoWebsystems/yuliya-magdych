@@ -23,14 +23,6 @@
         "bg_color": "#ffffff"
       }
     },
-    "section_liquid_FBxawd": {
-      "type": "section-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "custom_liquid": "<div style=\"text-align:center; padding: 24px 0;\">\n  <button id=\"openKlaviyoBirthday\"\n          onclick=\"try{window._klOnsite=window._klOnsite||[];window._klOnsite.push(['openForm','R6hf4u']);}catch(e){}\"\n          style=\"padding:14px 28px; border:1px solid #000; background:#fff; text-transform:uppercase; letter-spacing:.05em; cursor:pointer;\">\n    🎂 Join the Birthday Club\n  </button>\n</div>"
-      }
-    },
     "section_liquid_ciUWbp": {
       "type": "section-liquid",
       "name": "Custom Liquid",
@@ -170,7 +162,6 @@
   },
   "order": [
     "main",
-    "section_liquid_FBxawd",
     "section_liquid_ciUWbp",
     "176253609447c1f25e",
     "1647435988d11832ae",
