@@ -25,6 +25,7 @@
     },
     "section_liquid_FBxawd": {
       "type": "section-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": "<div style=\"text-align:center; padding: 24px 0;\">\n  <button id=\"openKlaviyoBirthday\"\n          onclick=\"try{window._klOnsite=window._klOnsite||[];window._klOnsite.push(['openForm','R6hf4u']);}catch(e){}\"\n          style=\"padding:14px 28px; border:1px solid #000; background:#fff; text-transform:uppercase; letter-spacing:.05em; cursor:pointer;\">\n    🎂 Join the Birthday Club\n  </button>\n</div>"
@@ -32,7 +33,6 @@
     },
     "section_liquid_ciUWbp": {
       "type": "section-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-UWaFv5\" style=\"min-height: 140px;\"></div>\n\n<script>\n  // гарантуємо завантаження та ре-ініт на мобільному (Broadcast/lazy-load)\n  (function forceKlaviyoInit(){\n    var tries = 0;\n    function init(){\n      try {\n        if (window._klOnsite && typeof window._klOnsite.fetchForms === 'function') {\n          window._klOnsite.fetchForms();\n        }\n      } catch(e){}\n      if (++tries < 10) setTimeout(init, 400); // повторюємо 10 разів по 400мс\n    }\n    document.addEventListener('DOMContentLoaded', init);\n    window.addEventListener('load', init, { once:true });\n    document.addEventListener('shopify:section:load', init);\n    document.addEventListener('shopify:section:select', init);\n    window.addEventListener('scroll', init, { once:true });\n  })();\n</script>"
