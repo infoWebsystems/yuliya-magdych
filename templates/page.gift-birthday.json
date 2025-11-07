@@ -9,6 +9,20 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
     "176253609447c1f25e": {
       "type": "apps",
       "blocks": {
@@ -24,20 +38,6 @@
       ],
       "settings": {
         "include_margins": false
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "subheading": "",
-        "show_title": true,
-        "show_content": true,
-        "text_size": 2,
-        "align_text": "text-left",
-        "height": "margin--medium",
-        "width": "wrapper",
-        "text_color": "text-dark",
-        "bg_color": "#ffffff"
       }
     },
     "1647435988d11832ae": {
@@ -148,11 +148,19 @@
         "text_color": "text-dark",
         "bg_color": "#fafafa"
       }
+    },
+    "section_liquid_ciUWbp": {
+      "type": "section-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<script>\n  function klRefresh(){ try { window._klOnsite && window._klOnsite.fetchForms(); } catch(e){} }\n  document.addEventListener('DOMContentLoaded', klRefresh);\n  document.addEventListener('shopify:section:load', klRefresh);\n  document.addEventListener('shopify:section:select', klRefresh);\n  window.addEventListener('scroll', klRefresh, { once: true });\n</script>"
+      }
     }
   },
   "order": [
     "main",
     "176253609447c1f25e",
+    "section_liquid_ciUWbp",
     "1647435988d11832ae",
     "1648028798da468267"
   ]
