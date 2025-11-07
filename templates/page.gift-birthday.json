@@ -92,6 +92,7 @@
         "1647435988877ff3ac-0",
         "503a119d-2c21-4492-bb73-1edf1ac9010b"
       ],
+      "disabled": true,
       "settings": {
         "height": "screen-height-one-half",
         "padding": false,
