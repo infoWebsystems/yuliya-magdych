@@ -25,6 +25,7 @@
     },
     "section_liquid_ciUWbp": {
       "type": "section-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-UWaFv5\" style=\"min-height: 140px;\"></div>\n\n<script>\n  // гарантуємо завантаження та ре-ініт на мобільному (Broadcast/lazy-load)\n  (function forceKlaviyoInit(){\n    var tries = 0;\n    function init(){\n      try {\n        if (window._klOnsite && typeof window._klOnsite.fetchForms === 'function') {\n          window._klOnsite.fetchForms();\n        }\n      } catch(e){}\n      if (++tries < 10) setTimeout(init, 400); // повторюємо 10 разів по 400мс\n    }\n    document.addEventListener('DOMContentLoaded', init);\n    window.addEventListener('load', init, { once:true });\n    document.addEventListener('shopify:section:load', init);\n    document.addEventListener('shopify:section:select', init);\n    window.addEventListener('scroll', init, { once:true });\n  })();\n</script>"
