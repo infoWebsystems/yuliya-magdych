@@ -106,9 +106,14 @@ span.ks-chart-modal-link:hover {
 }
 .js__header__stuck .header__desktop__left .menu__item.is-visible .navlink--toplevel .navtext::after,
 .meganav--visible .header__desktop__left .menu__item.is-visible .navlink--toplevel .navtext::after,
-.header__desktop__left .menu__item:hover .navlink--toplevel .navtext::after {
+[data-header-transparent=false] .header__desktop__left .menu__item:hover .navlink--toplevel .navtext::after,
+.meganav--visible[data-header-transparent=true] .header__desktop__left .menu__item:hover .navlink--toplevel .navtext::after {
     width: 100%;
     background: #000;
+}
+[data-header-transparent=true] .header__desktop__left .menu__item:hover .navlink--toplevel .navtext::after {
+    width: 100%;
+    background: #fff;
 }
 .header__desktop__left .navlink--toplevel svg {
     margin-left: 3px;
@@ -385,12 +390,6 @@ span.ks-chart-modal-link:hover {
 .header__desktop__left .menu__item.parent .navlink--child {
     width: 35%;
     margin: 8px 0;
-}
-.template-index .header__desktop__left .header__dropdown__inner .navlink {
-    margin: 8px 0;
-}
-.template-index .js__header__stuck .header__desktop__left .header__dropdown__inner .navlink {
-    margin: 10px 0 16px;
 }
 .header__desktop__left .header__dropdown__inner .navlink {
     border-bottom: 1px solid transparent;

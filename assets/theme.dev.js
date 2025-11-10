@@ -8223,7 +8223,7 @@
       this.trigger.setAttribute('aria-controls', this.key);
       this.handleOutsideClick = this.handleOutsideClick.bind(this);
 
-      this.connectHoverToggle();
+      this.connectToggleHandlers();
       this.handleTablets();
       this.staggerChildAnimations();
     }
@@ -8342,15 +8342,14 @@
           const isOpen = this.disclosure.classList.contains(classes$c.isVisible);
           if (!isOpen) {
             e.preventDefault();
-            this.showDisclosure(e);
+            this.toggleDisclosure(e); 
           }
-        }.bind(this),
-        {passive: true}
+        }.bind(this)
       );
     }
 
-    connectHoverToggle() {
-      this.trigger.addEventListener('click', (e) => this.showDisclosure(e));
+    connectToggleHandlers() {
+      this.trigger.addEventListener('click', (e) => this.toggleDisclosure(e));
       this.link.addEventListener('focus', (e) => this.showDisclosure(e));
 
       this.trigger.addEventListener('focusout', (e) => {
