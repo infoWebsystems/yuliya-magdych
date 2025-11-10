@@ -269,10 +269,11 @@ span.ks-chart-modal-link:hover {
     width: 92%;
 }
 .drawer__bottom__form .popout--drawer .popout__toggle {
-    padding: 15px 3px;
+    padding: 15px 3px 25px;
     font-size: 16px;
     letter-spacing: 0;
     width: 100%;
+    color: #05050599;
 }
 .drawer__bottom__form .popout--drawer,
 .drawer__bottom__form .popout--drawer .popout {
@@ -314,7 +315,7 @@ span.ks-chart-modal-link:hover {
     }
     .drawer__bottom .social__links {
         gap: 6px 30px;
-        padding: 15px 0 0;
+        padding: 12px 0;
     }
     .drawer__bottom .social__links a {
         height: 24px;
