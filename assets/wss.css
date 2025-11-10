@@ -91,7 +91,8 @@ span.ks-chart-modal-link:hover {
     padding: 22px 4px;
 }
 .js__header__stuck .header__desktop__left .navlink--toplevel .navtext::after,
-.meganav--visible .header__desktop__left .navlink--toplevel .navtext::after  {
+.meganav--visible .header__desktop__left .navlink--toplevel .navtext::after,
+.header__desktop__left .menu__item .navlink--toplevel .navtext::after  {
     content: "";
     width: 0;
     height: 1px;
@@ -104,7 +105,8 @@ span.ks-chart-modal-link:hover {
     transition: .4s;
 }
 .js__header__stuck .header__desktop__left .menu__item.is-visible .navlink--toplevel .navtext::after,
-.meganav--visible .header__desktop__left .menu__item.is-visible .navlink--toplevel .navtext::after {
+.meganav--visible .header__desktop__left .menu__item.is-visible .navlink--toplevel .navtext::after,
+.header__desktop__left .menu__item:hover .navlink--toplevel .navtext::after {
     width: 100%;
     background: #000;
 }
