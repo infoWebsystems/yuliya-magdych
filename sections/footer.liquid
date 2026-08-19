@@ -157,12 +157,14 @@
           </button>
 
           <ul id="currency-list" class="popout-list" data-popout-list>
-            {% for currency in form.available_currencies %}
-              <li class="popout-list__item {% if currency.iso_code == form.current_currency.iso_code %}popout-list__item--current{% endif %}">
-                <a class="popout-list__option" href="#" {% if currency.iso_code == form.current_currency.iso_code %}aria-current="true"{% endif %} data-value="{{ currency.iso_code }}" data-popout-option>
-                  <span>{{ currency.iso_code }} {%- if currency.symbol -%}{{ currency.symbol }}{%- endif -%}</span>
-                </a>
-              </li>
+                        {% for currency in form.available_currencies %}
+              {% unless currency.iso_code == 'UAH' %}
+                <li class="popout-list__item {% if currency.iso_code == form.current_currency.iso_code %}popout-list__item--current{% endif %}">
+                  <a class="popout-list__option" href="#" {% if currency.iso_code == form.current_currency.iso_code %}aria-current="true"{% endif %} data-value="{{ currency.iso_code }}" data-popout-option>
+                    <span>{{ currency.iso_code }} {%- if currency.symbol -%}{{ currency.symbol }}{%- endif -%}</span>
+                  </a>
+                </li>
+              {% endunless %}
             {%- endfor -%}
           </ul>
 
