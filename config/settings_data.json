@@ -175,7 +175,7 @@
       "announcement": {
         "type": "announcement",
         "custom_css": [
-          ".announcement-bar a,.announcement-bar a:visited,.announcement-bar a:hover {color: #ffffff !important;}"
+          "a,a:visited,a:hover,a:focus {color: #ffffff !important;}"
         ],
         "settings": {
           "bg_color": "#212121",
