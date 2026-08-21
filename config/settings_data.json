@@ -178,10 +178,10 @@
           "bg_color": "#212121",
           "color": "#ffffff",
           "text_top": "INDEPENDENCE DAY OF UKRAINE SALE | UP TO -70% OFF SELECTED ITEMS",
-          "text_button": "SHOP NOW",
+          "text_button": "",
           "title_bottom": "",
           "text_bottom": "",
-          "text_bottom_button": "",
+          "text_bottom_button": "SHOP NOW",
           "link_bottom_button": "shopify://collections/independence-day-2026"
         }
       },
