@@ -117,6 +117,25 @@
     "16487157483894b2a4": {
       "type": "section-slideshow",
       "blocks": {
+        "image_CHc9Dh": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify://shop_images/White_Aesthetic_Photo_Sale_Instagram_Story_2.png",
+            "mobile_image": "shopify://shop_images/White_Aesthetic_Photo_Sale_Instagram_Story.png",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "title": "INDEPENDENCE DAY SALE",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "shop now",
+            "link": "shopify://collections/independence-day-2026",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
         "image_DXfFkQ": {
           "type": "image",
           "settings": {
@@ -154,32 +173,12 @@
             "button_color": "btn--white",
             "button_style": "hero__btn btn btn--large btn--outline caps"
           }
-        },
-        "image_CHc9Dh": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "bg_position": "center-center",
-            "image": "shopify://shop_images/White_Aesthetic_Photo_Sale_Instagram_Story_2.png",
-            "mobile_image": "shopify://shop_images/White_Aesthetic_Photo_Sale_Instagram_Story.png",
-            "overlay_opacity": 5,
-            "overlay_color": "#000000",
-            "title": "UA Independence Day",
-            "description": "",
-            "flex_align": "align--bottom-center",
-            "text_color": "text-light",
-            "transparent": true,
-            "link_text": "shop now",
-            "link": "shopify://collections/made-in-ua",
-            "button_color": "btn--white",
-            "button_style": "hero__btn btn btn--large btn--outline caps"
-          }
         }
       },
       "block_order": [
+        "image_CHc9Dh",
         "image_DXfFkQ",
-        "16487157481a06ff77-0",
-        "image_CHc9Dh"
+        "16487157481a06ff77-0"
       ],
       "settings": {
         "height": "sixty-fifty-height-hero",
