@@ -119,6 +119,7 @@
       "blocks": {
         "image_CHc9Dh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "bg_position": "center-center",
             "image": "shopify://shop_images/White_Aesthetic_Photo_Sale_Instagram_Story_2.png",
