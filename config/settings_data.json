@@ -232,6 +232,11 @@
         "type": "shopify://apps/hotjar-install/blocks/global/2903e4ea-7615-463e-8b60-582f487dac4f",
         "disabled": false,
         "settings": {}
+      },
+      "2200952712151285029": {
+        "type": "shopify://apps/microsoft-clarity/blocks/brandAgents_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
