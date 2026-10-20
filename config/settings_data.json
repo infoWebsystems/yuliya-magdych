@@ -237,6 +237,16 @@
         "type": "shopify://apps/microsoft-clarity/blocks/brandAgents_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": true,
         "settings": {}
+      },
+      "390041968548177564": {
+        "type": "shopify://apps/geolocation/blocks/auto-Redirect/aa39978e-7618-49db-84d5-a240ade3eaa3",
+        "disabled": false,
+        "settings": {
+          "preserve_relative_path": true,
+          "redirect_once_per_hour": false,
+          "redirect_once_minutes": 60,
+          "custom_html": "<div></div>"
+        }
       }
     }
   },
