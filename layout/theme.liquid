@@ -351,22 +351,7 @@ window.TriplePixelData={TripleName:"yuliya-magdych.myshopify.com",ver:"2.12",pla
   {% endif %}
 
   <!-- Theme Javascript ============================================================== -->
-
-  {% if request.design_mode == false %}
-    <script type="application/javascript">
-      function geoip(json){
-        var cCode = json.country_code
-        console.log(cCode)
-        if (cCode != 'UA') {
-          return
-        } else {
-          window.location.href = "https://ua.yuliyamagdych.com"
-        }
-      }
-    </script>
-    <script async src="https://get.geojs.io/v1/ip/geo.js"></script>
-  {% endif %}
-
+  
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'theme.dev.min.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
